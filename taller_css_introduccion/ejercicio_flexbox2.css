@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  h2 {
+    color: #e57891;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 300px;
+  }
+  
+  .menu li {
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    background-color: white;
+    padding: 5px 10px;
+    color: black;
+    border: 1px solid #ccc;
+    font-weight: bold;
+  }
+  
+  .menu li span {
+    font-weight: bold;
+  }
+  

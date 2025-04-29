@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .contenedor {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 100hv;
+    background-color: #f5f3f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .caja {
+    background-color: #eae5e1;
+    padding: 20px;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

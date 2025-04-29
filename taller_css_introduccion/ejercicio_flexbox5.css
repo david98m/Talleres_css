@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  header, footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 1em;
+    font-weight: bold;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Nav, Article, Aside */
+    flex: 1;
+    height: calc(100vh - 4em); /* Resta altura aproximada de header + footer */
+  }
+  
+  nav, article, aside {
+    padding: 1em;
+    background-color: #ccc;
+    height: 100%;
+  }
+  
+  article {
+    background-color: #bbb;
+  }
+  
+  footer {
+    background-color: #eee;
+    padding: 1em;
+    text-align: center;
+  }
